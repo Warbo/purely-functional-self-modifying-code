@@ -1,4 +1,4 @@
-> {-# LANGUAGE DeriveDataTypeable, OverlappingInstances #-}
+> {-# LANGUAGE DeriveDataTypeable, OverlappingInstances, StandaloneDeriving, FlexibleInstances #-}
 > module SelfMod where
 > import Data.Number.Nat
 > import Data.Data
@@ -19,7 +19,7 @@ by http://lambda-the-ultimate.org/node/3075#comment-44805
 >           | App Expr Expr       -- Application
 >           | Var Expr            -- Variable with a value
 >           | Mod                 -- Self-modify primitive function
->           deriving (Typeable, Data)
+>           deriving (Typeable)
 
 > instance Eq Expr where
 >   App a b == App x y = a == x && b == y
