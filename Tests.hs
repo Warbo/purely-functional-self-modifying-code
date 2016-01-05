@@ -1,6 +1,6 @@
-{-# LANGUAGE DeriveDataTypeable, OverlappingInstances, TypeFamilies #-}
-{-# LANGUAGE UndecidableInstances, TemplateHaskell, TypeOperators   #-}
-{-# LANGUAGE StandaloneDeriving, TypeSynonymInstances, FlexibleInstances #-}
+{-# LANGUAGE OverlappingInstances, TypeFamilies #-}
+{-# LANGUAGE UndecidableInstances, TypeOperators   #-}
+{-# LANGUAGE TypeSynonymInstances, FlexibleInstances #-}
 
 module Tests where
 

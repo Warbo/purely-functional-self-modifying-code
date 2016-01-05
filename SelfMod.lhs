@@ -1,4 +1,4 @@
-> {-# LANGUAGE DeriveDataTypeable, OverlappingInstances, StandaloneDeriving, FlexibleInstances #-}
+> {-# LANGUAGE DeriveDataTypeable, OverlappingInstances, FlexibleInstances #-}
 > module SelfMod where
 > import Data.Number.Nat
 > import Data.Data
