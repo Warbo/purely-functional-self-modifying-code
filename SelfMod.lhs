@@ -31,7 +31,7 @@ by http://lambda-the-ultimate.org/node/3075#comment-44805
 > instance Show Expr where
 >   show (App a b) = "(" ++ show a ++ " " ++ show b ++ ")"
 >   show (Var x)   = 'V' : show x
->   show (Mod)     = "Mod"
+>   show  Mod      = "Mod"
 >   show (Lam f)   = "λ..."
 
 Evaluating such expressions is straightforward:
